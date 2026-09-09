@@ -6,7 +6,7 @@ import { startup, why } from '../../data/content'
 const IMAGES = [
   { src: '/images/startup-team.jpg', alt: 'A startup team at work in an open office' },
   { src: '/images/work-discussion.jpg', alt: 'An informal discussion over laptops' },
-  { src: '/images/recharge-restaurant.jpg', alt: 'A warmly lit rooftop restaurant interior' },
+  { src: '/images/create-tech-lab.webp', alt: 'A tech and product development lab' },
 ]
 
 /**
