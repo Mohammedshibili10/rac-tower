@@ -5,11 +5,11 @@ import { audience } from '../../data/content'
 // One photograph per audience — reused from the site's own facility/program
 // photography rather than a uniform stock set.
 const IMAGES = [
-  { src: '/images/work-boardroom.jpg', alt: 'An executive boardroom with a city view' },
+  { src: '/images/work-coworking.webp', alt: 'A modern coworking floor of desks and monitors' },
   { src: '/images/work-offices.jpg', alt: 'Private offices behind glass partitions' },
-  { src: '/images/create-podcast.jpg', alt: 'A broadcast microphone in a podcast studio' },
-  { src: '/images/host-convention.jpg', alt: 'A full convention hall facing a presentation screen' },
-  { src: '/images/startup-founders.jpg', alt: 'Early-stage founders working together around a table' },
+  { src: '/images/create-branding-studio.webp', alt: 'A branding and media production studio' },
+  { src: '/images/story-event-pitch.jpg', alt: 'A speaker presenting to an audience at an event' },
+  { src: '/images/story-founders-team.jpg', alt: 'A group of founders in discussion around a table' },
 ]
 
 /**

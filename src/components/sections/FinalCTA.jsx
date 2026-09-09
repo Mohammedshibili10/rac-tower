@@ -198,7 +198,7 @@ export default function FinalCTA() {
           the closing line. No oversized type, no artful device — just a
           standard, easy-to-scan footer. */}
       <div className="relative border-t border-white/10 px-5 pt-16 pb-3 sm:px-10 sm:pt-20 sm:pb-4 lg:px-16">
-        <div className="mx-auto max-w-7xl">
+        <div className=" max-w-8xl">
           <div className="flex flex-col gap-10 sm:flex-row sm:flex-wrap sm:items-start sm:justify-between">
             <div>
               <img src="/assets/rac-logo-white.svg" alt="RAC" className="h-6 w-auto" />
@@ -259,7 +259,7 @@ function Field({ id, label, error, className = '', ...rest }) {
         id={id}
         aria-invalid={error ? 'true' : undefined}
         aria-describedby={error ? `${id}-error` : undefined}
-        className={`mt-2.5 w-full border-b bg-transparent pb-2.5 text-[15px] text-white outline-none transition-colors placeholder:text-white/25 ${
+        className={`mt-2.5 w-full border-b bg-transparent  text-[15px] text-white outline-none transition-colors placeholder:text-white/25 ${
           error ? 'border-white' : 'border-white/20 focus:border-white'
         }`}
         {...rest}
