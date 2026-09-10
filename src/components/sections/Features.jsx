@@ -131,27 +131,27 @@ export default function Features() {
         </div>
       </div>
 
-      {/* Facility cards — compact, one per item, sized to sit in a single
-          full-width row on larger screens (grid-flow-col with equal-fraction
-          columns adapts to however many items the active group has), and
-          wrap into a tighter multi-column grid on small screens. */}
+      {/* Facility list — an open, divided row rather than boxed cards: each
+          item is icon-led text separated by a thin vertical rule, echoing
+          the architectural line language used elsewhere on the page instead
+          of repeating the bordered-card treatment already used everywhere
+          else on the site. */}
       <div className="relative px-5 pt-2 pb-14 sm:px-10 sm:pt-3 sm:pb-16 lg:px-16 lg:pt-4 lg:pb-20">
-        <div
-          key={group.id + '-grid'}
-          className="grid grid-cols-2 gap-1 sm:grid-cols-3 sm:gap-1.5 lg:grid-flow-col lg:auto-cols-fr lg:grid-cols-none"
-        >
-          {group.items.map((item) => (
+        <div key={group.id + '-list'} className="flex flex-col divide-y divide-white/10 sm:flex-row sm:flex-wrap sm:divide-y-0">
+          {group.items.map((item, i) => (
             <div
               key={item.term}
-              className="feature-card group flex h-full min-w-0 flex-col rounded-xl border border-white/12 bg-white/[0.02] p-3 transition-colors duration-400 hover:border-white/25"
+              className={`feature-card group flex min-w-0 flex-1 basis-40 flex-col gap-2.5 py-5 sm:py-0 sm:pr-5 ${
+                i === 0 ? 'sm:pl-0' : 'sm:border-l sm:border-white/10 sm:pl-5'
+              }`}
             >
-              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-white/20 text-white/80 transition-colors duration-400 group-hover:border-white/40">
-                <FacilityIcon name={TERM_ICON[item.term]} className="h-3 w-3" />
+              <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-white/20 text-white/80 transition-colors duration-400 group-hover:border-white/40">
+                <FacilityIcon name={TERM_ICON[item.term]} className="h-3.5 w-3.5" />
               </span>
-              <h4 className="mt-2.5 text-[13px] leading-snug font-semibold text-white sm:text-sm">
+              <h4 className="text-sm leading-snug font-semibold text-white">
                 {item.term.replace(/\.$/, '')}
               </h4>
-              <p className="pretty mt-1 text-[11px] leading-snug text-white/50 sm:text-xs">{item.detail}</p>
+              <p className="pretty text-xs leading-snug text-white/50">{item.detail}</p>
             </div>
           ))}
         </div>

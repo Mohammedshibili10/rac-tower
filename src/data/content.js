@@ -50,16 +50,16 @@ export const ui = {
  * ----------------------------------------------------------------------- */
 export const contact = {
   address: 'RAC Tower, Calicut, Kerala, India',
-  phone: '+91 00000 00000',
-  phoneHref: 'tel:+910000000000',
-  email: 'hello@ractower.in',
-  emailHref: 'mailto:hello@ractower.in',
+  phone: '+91 808 649 9444',
+  phoneHref: 'tel:+918086499444',
+  email: 'connect@racpartners.in',
+  emailHref: 'mailto:connect@racpartners.in',
   note: 'Opening Soon',
   social: [
-    { label: 'Instagram', href: '#' },
-    { label: 'LinkedIn', href: '#' },
-    { label: 'Facebook', href: '#' },
-    { label: 'YouTube', href: '#' },
+    { label: 'Instagram', href: 'https://www.instagram.com/rac_global/' },
+    { label: 'LinkedIn', href: 'https://in.linkedin.com/company/racstartup' },
+    { label: 'Facebook', href: 'https://www.facebook.com/racverse/' },
+ 
   ],
 }
 
