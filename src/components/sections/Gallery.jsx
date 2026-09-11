@@ -8,7 +8,7 @@ const IMAGES = [
   { src: '/images/work-coworking.webp', alt: 'A modern coworking floor of desks and monitors' },
   { src: '/images/work-offices.jpg', alt: 'Private offices behind glass partitions' },
   { src: '/images/create-branding-studio.webp', alt: 'A branding and media production studio' },
-  { src: '/images/story-event-pitch.jpg', alt: 'A speaker presenting to an audience at an event' },
+  { src: '/images/host-convention.jpg', alt: 'A full convention hall facing a presentation screen' },
   { src: '/images/story-founders-team.jpg', alt: 'A group of founders in discussion around a table' },
 ]
 
