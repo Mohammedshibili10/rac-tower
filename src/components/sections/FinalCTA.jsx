@@ -142,7 +142,7 @@ export default function FinalCTA() {
     <section
       id="waitlist"
       ref={root}
-      className="relative overflow-hidden bg-black py-28 sm:py-36 lg:py-44"
+      className="relative overflow-hidden bg-black pt-28 sm:pt-36 lg:pt-44"
     >
       {/* Background */}
       <div
@@ -386,8 +386,8 @@ export default function FinalCTA() {
       {/* =========================================================
           FOOTER
       ========================================================== */}
-      <div className="relative mt-20 border-t border-white/10 px-5 pt-16 pb-3 sm:mt-24 sm:px-10 sm:pt-20 sm:pb-4 lg:mt-28 lg:px-16">
-        <div className=" max-w-8xl">
+      <div className="relative mt-10 border-t border-white/10 px-5 pt-10 pb-0 sm:mt-12 sm:px-10 sm:pt-12 lg:mt-14 lg:px-16">
+        <div className="w-full">
           <div className="flex flex-col gap-10 sm:flex-row sm:flex-wrap sm:items-start sm:justify-between">
             {/* Brand */}
             <div>
