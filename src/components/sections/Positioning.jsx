@@ -42,7 +42,7 @@ export default function Positioning() {
                 <span className="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-white">
                   <CheckIcon className="h-3 w-3 text-black" />
                 </span>
-                <p className="text-xl-display balance font-medium text-white">{row.is}</p>
+                <p className="text-xl-display balance min-h-[3.15em] font-medium text-white">{row.is}</p>
               </div>
 
               {row.isNot && (
