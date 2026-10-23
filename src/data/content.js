@@ -205,106 +205,96 @@ export const facilities = {
 }
 
 export const startup = {
-  eyebrow: "RAC Tower's Startup Program",
-  title: 'Build Your Startup',
-  body:
-    'Within RAC Tower, the RAC Startup Program helps founders build, launch and scale startups with clarity, structure and complete in-house support. From idea stage to nationwide expansion, every startup progresses through a defined system, backed by infrastructure, capital guidance, mentorship and execution teams, all under one roof.',
-  supportsTitle: 'Who the Program Supports',
-  supports: [
-    {
-      name: 'Aspiring & Early-Stage Founders',
-      image: '/images/startup-founders.jpg',
-      alt: 'Early-stage founders working together around a table',
-      items: [
-        {
-          term: 'A strong idea at an early stage.',
-          detail:
-            'For founders with a clear problem statement or market insight, even without a full plan yet.',
-        },
-        {
-          term: 'No infrastructure or team.',
-          detail:
-            "RAC Tower provides the setup and execution support these founders don't yet have, so they can start building without hiring first.",
-        },
-        {
-          term: 'Building a first product or business.',
-          detail:
-            'Guided support from ideation and prototyping through to branding, launch and early traction, suited to first-time entrepreneurs.',
-        },
-      ],
-    },
-    {
-      name: 'Startups With MVP or Early Traction',
-      image: '/images/startup-team.jpg',
-      alt: 'A startup team at work in an open office',
-      items: [
-        {
-          term: 'An existing product that needs positioning.',
-          detail: 'Support to refine the product and sharpen its market positioning and branding.',
-        },
-        {
-          term: 'Basic customer validation.',
-          detail:
-            'Support to read early traction signals and build structured growth funnels for founders with some paying customers or user feedback.',
-        },
-        {
-          term: 'A gap in branding, sales or operations.',
-          detail:
-            'Access to in-house marketing, tech, finance, legal, HR and sales teams to scale faster.',
-        },
-      ],
-    },
-    {
-      name: 'Scalable Digital and Product Ventures',
-      image: '/images/create-edit.jpg',
-      alt: 'Product and digital work in progress on screen',
-      items: [
-        {
-          term: 'D2C, F&B and FMCG brands.',
-          detail:
-            'Support with manufacturing guidance, packaging, logistics, branding and distribution for consumer-facing brands.',
-        },
-        {
-          term: 'IoT and hardware innovators.',
-          detail:
-            'Access to labs, prototyping and technical guidance to move hardware products from concept to market.',
-        },
-        {
-          term: 'SaaS and tech-driven products.',
-          detail:
-            'UI/UX, product design, development talent and go-to-market support for software and app-based businesses.',
-        },
-        {
-          term: 'Creator-led and digital-first businesses.',
-          detail:
-            'Support to turn an existing audience into sustainable revenue through product, monetisation and brand-building.',
-        },
-      ],
-    },
-  ],
-  selectionTitle: 'Selection Process',
-  selectionIntro:
-    'A structured process to onboard founders with clarity, commitment and strong potential.',
-  selectionSteps: [
-    {
-      term: 'Application.',
-      detail: 'Apply through the RAC Startup Portal with the idea and basic details.',
-    },
-    {
-      term: 'Internal screening.',
-      detail:
-        'Verification and review by the RAC internal team; shortlisted applicants move to interview.',
-    },
-    {
-      term: 'Online interview.',
-      detail: 'An assessment of founder clarity, market understanding, commitment and feasibility.',
-    },
-    {
-      term: 'Final pitch.',
-      detail:
-        'Selected applicants pitch to the RAC management team with the required documents before joining.',
-    },
-  ],
+  eyebrow: 'RAC Startup Program',
+  title: 'RAC Startup Program',
+  intro:
+    'The RAC Startup Program is presented as a programme within RAC Tower to help founders build, launch, and scale startups. The programme combines infrastructure, capital guidance, mentorship, and execution support.',
+  whoItSupports: {
+    eyebrow: 'Cohorts',
+    title: 'Who the programme supports',
+    tiers: [
+      {
+        badge: 'Early Stage',
+        title: 'Aspiring and early-stage founders',
+        detail:
+          'Founders with a problem statement or market insight who need support with ideation, prototyping, branding, launch, and early traction.',
+      },
+      {
+        badge: 'Validation & Traction',
+        title: 'Startups with an MVP or early traction',
+        detail:
+          'Businesses that have an existing product, early customer feedback, or paying customers and require support with positioning, branding, sales, or operations.',
+      },
+      {
+        badge: 'Scale & Expansion',
+        title: 'Scalable digital and product ventures',
+        subtitle: 'Categories:',
+        categories: [
+          'D2C, F&B and FMCG brands.',
+          'IoT and hardware innovators.',
+          'SaaS and technology-driven products.',
+          'Creator-led and digital-first businesses.',
+        ],
+      },
+    ],
+  },
+  selectionProcess: {
+    eyebrow: 'Pathway',
+    title: 'Selection process',
+    intro: 'A clear four-step route from founder application to programme onboarding.',
+    steps: [
+      {
+        term: 'Application',
+        detail: 'Submit an application through the RAC Startup Portal.',
+      },
+      {
+        term: 'Internal screening',
+        detail: 'The RAC team reviews and verifies the application.',
+      },
+      {
+        term: 'Online interview',
+        detail: 'Assess founder clarity, market understanding, commitment, and feasibility.',
+      },
+      {
+        term: 'Final pitch',
+        detail: 'Selected applicants present to RAC management with the required documents.',
+      },
+    ],
+  },
+  founderOnboarding: {
+    eyebrow: 'Curriculum',
+    title: 'Founder onboarding',
+    intro: "The programme's stated onboarding areas include:",
+    areas: [
+      'Startup fundamentals.',
+      'Market understanding.',
+      'MVP and product-building logic.',
+      'Branding and positioning.',
+      'Sales and pricing frameworks.',
+      'Finance and runway management.',
+      'Leadership fundamentals.',
+      'Tower systems, SOPs, and reporting structure.',
+    ],
+  },
+  growthManager: {
+    eyebrow: 'Execution Partner',
+    title: 'Dedicated Growth Manager',
+    lead: 'Each startup is paired with a dedicated Growth Manager.',
+    subtitle: 'The responsibilities include:',
+    responsibilities: [
+      'Tracking KPIs and milestones.',
+      'Coordinating technology, marketing, sales, finance, and legal teams.',
+      'Supporting fundraising and investor conversations.',
+      'Conducting regular progress reviews.',
+    ],
+  },
+  growthRoadmap: {
+    eyebrow: 'Milestone Path',
+    title: 'Growth Roadmap',
+    description:
+      'A 12-month startup roadmap has been proposed covering burn, breakeven, return, and profit, with an optional extension of up to 18 months for correction or optimisation along with a peer environment of 30 to 50 founders per floor.',
+  },
+  // Pillars retained for Story.jsx compatibility
   pillars: [
     {
       name: 'Onboarding',
@@ -393,3 +383,138 @@ export const nav = [
   { label: 'Why RAC Tower', href: '#why' },
   { label: "Who It's For", href: '#who' },
 ]
+
+export const floorConcept = {
+  eyebrow: 'Floor-Wise Concept',
+  title: 'Facilities and Floor-Wise Concept',
+  intro:
+    'A 10-floor, professionally managed destination bringing together dedicated functional levels for work, creation, innovation, events, and wellness under one address.',
+  floors: [
+    {
+      level: 'Ground Floor',
+      tag: 'Floor 00',
+      title: 'Reception, Help Desk and Richersip Café',
+      description:
+        'The ground floor is designed as the main reception and visitor-facing area.',
+      facilities: [
+        'Help desk and visitor support.',
+        'Richersip Café.',
+        'Waiting lounge.',
+        'Space for informal discussions and networking.',
+      ],
+    },
+    {
+      level: 'Floors 01 and 02',
+      tag: 'Floors 01 & 02',
+      title: 'Co-working and Collaboration',
+      description:
+        'These floors are designed for startups, freelancers, and business teams with more than 160 flexible workstations across these floors and a capacity figure of 320+ seats.',
+      capacity: '160+ flexible workstations · 320+ seats capacity',
+      facilities: [
+        'Flexible workstations.',
+        'Meeting pods.',
+        'Mini conference hall.',
+        'Lounge area.',
+        'Informal discussion and collaboration spaces.',
+      ],
+    },
+    {
+      level: 'Floor 03',
+      tag: 'Floor 03',
+      title: 'Co-working and Growth Services',
+      description:
+        'This floor combines workspaces with business support functions.',
+      facilities: [
+        'Growth And Floor Manager Cabins.',
+        'Main Workstations.',
+        'Meeting Pods.',
+        'Conference Room.',
+        'Workstation Lounge.',
+      ],
+    },
+    {
+      level: 'Floor 04',
+      tag: 'Floor 04',
+      title: 'Convention and Networking Hall',
+      description:
+        'The convention and networking facility is intended for startup pitches, investor meetings, and professional events.',
+      facilities: [
+        'Convention Halls.',
+        'VIP Lounge.',
+        'Guest Rooms.',
+      ],
+    },
+    {
+      level: 'Floor 05',
+      tag: 'Floor 05',
+      title: 'Marketing and Brand Innovation Hub',
+      description:
+        'A dedicated creative and production hub supporting branding, media, and digital execution.',
+      facilities: [
+        'Open Studio.',
+        'Marketing Desk.',
+        'Podcast Studio.',
+        'Production Suite.',
+        'Creative Studios.',
+        'Seating Area.',
+        'Open-Air Space.',
+      ],
+    },
+    {
+      level: 'Floor 06',
+      tag: 'Floor 06',
+      title: 'Software and Hardware Innovation Labs',
+      description:
+        'Specialised technical workspaces and high-spec laboratories for advanced engineering.',
+      facilities: [
+        'IT Workspace.',
+        'Conference Room.',
+        'Waiting Area.',
+        'AI & High-Spec Lab.',
+        'Lounge Area.',
+        'Innovation Lab.',
+      ],
+    },
+    {
+      level: 'Floor 07',
+      tag: 'Floor 07',
+      title: 'Wellness and Creativity Zone',
+      description:
+        'The floor is intended for fitness, relaxation, and recreation.',
+      facilities: [
+        'Fitness Area.',
+        'Yoga/Meditation Hall.',
+        'VR and Gaming Zone.',
+        'Library.',
+        'Mind Peace Center.',
+      ],
+    },
+    {
+      level: 'Floor 08',
+      tag: 'Floor 08',
+      title: 'Corporate and Investor Offices',
+      description:
+        'This floor is described as the corporate hub within RAC Tower.',
+      facilities: [
+        'Large conference room.',
+        'Office cabins.',
+        'Waiting areas.',
+        'Executive lounge.',
+        'Chairman Cabin.',
+      ],
+    },
+    {
+      level: 'Rooftop — Floor 09',
+      tag: 'Floor 09',
+      title: 'Food Court and F&B Innovation Zone',
+      description:
+        'The rooftop is presented as a food, hospitality, and networking area.',
+      facilities: [
+        'Food court with multiple outlets.',
+        'Cloud kitchens.',
+        'Food and beverage research centre.',
+        'Social and networking space.',
+      ],
+    },
+  ],
+}
